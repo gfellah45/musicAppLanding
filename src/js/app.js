@@ -123,7 +123,7 @@ loadBricks(data);
 const cards = document.querySelectorAll(".split");
 
 // filter base on user input
-document.querySelector("#search").addEventListener("keydown", (e) => {
+document.querySelector("#search").addEventListener("keyup", (e) => {
 	input = e.target.value;
 	cards.forEach((card) => {
 		let atrr = card.getAttribute("data-name");
