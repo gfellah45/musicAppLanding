@@ -1,6 +1,6 @@
-html {
+html,
+body {
   overflow-x: hidden;
-  margin: 0;
 }
 
 header {
@@ -43,7 +43,7 @@ header {
 
 section .row .split {
   width: 100%;
-  margin-left: 60px;
+  margin-left: 13%;
 }
 
 section .row .split img {
